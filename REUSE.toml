@@ -1,0 +1,15 @@
+version = 1
+
+# Probably a bit ridiculous to copyright configuration files.
+[[annotations]]
+path = [
+    "package.json",
+    "package-lock.json",
+    "next.config.ts",
+    "postcss.config.mjs",
+    "svgr.d.ts",
+    "tailwind.config.ts",
+    "tsconfig.json",
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"

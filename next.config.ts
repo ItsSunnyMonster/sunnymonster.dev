@@ -1,7 +1,3 @@
-// SPDX-FileCopyrightText: 2025 SunnyMonster
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
 import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
 import mdxOptions from "./src/mdxOptions";
