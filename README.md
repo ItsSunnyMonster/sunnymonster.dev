@@ -13,7 +13,7 @@ This project follows the REUSE specification. Refer to the various file headers 
 The following listing is only an explanation of how licensing works for different types of files. If it is different than
 what the file headers say, always refer to the file headers as the "source of truth".
 
-- Source Code: GPL 3.0 or later
+- Source Code: AGPL 3.0 or later
 - Post and Post Assets: CC BY SA 4.0
 - Social Icons: Font Awesome CC BY 4.0
 - My Logos: All Rights Reserved
