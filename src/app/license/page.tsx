@@ -10,7 +10,7 @@ export default function Page() {
 
         <p>
             <Link className="underlined external" href="https://codeberg.org/SunnyMonster/sunnymonster.dev">The source repository</Link> of this website follows the <Link className="underlined external" href="https://reuse.software">REUSE</Link> specification.
-            You may check it for the specific licenses applying to each file. Below is a summary (if anything seems wrong, always refer to the REUSE headers as the "source of truth").
+            You may check it for the specific licenses applying to each file. Below is a summary (if anything seems wrong, always refer to the REUSE headers as the &quot;source of truth&quot;).
         </p>
 
         <h2>Source Files</h2>
@@ -32,7 +32,7 @@ export default function Page() {
 
         <h2>Other Assets</h2>
         <p>
-            The other assets I've used, such as font awesome icons or Jetbrains Mono, are all licensed under their appropriate licenses.
+            The other assets I&apos;ve used, such as font awesome icons or Jetbrains Mono, are all licensed under their appropriate licenses.
         </p>
     </>
 }
