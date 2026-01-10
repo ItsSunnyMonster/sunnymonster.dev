@@ -19,7 +19,9 @@ export default function Footer() {
       <Icon size={100} />
 
       <div className="flex flex-col narrow:items-center">
-        <p className="text-overlay0">made with ❤️ by sunnymonster (they/them)</p>
+        <p className="text-overlay0">
+          made with ❤️ by sunnymonster (they/them)
+        </p>
         <p className="text-overlay0">
           © 2025 SunnyMonster.
           <br className="inline narrow:hidden" />
@@ -33,7 +35,7 @@ export default function Footer() {
           <br className="inline narrow:hidden" />
           <span className="hidden narrow:inline-block align-middle w-1 h-1 bg-overlay0 rounded-full mx-2"></span>
           <Link
-            href={"https://codeberg.org/SunnyMonster/sunnymonster.dev"}
+            href={"https://github.com/ItsSunnyMonster/sunnymonster.dev"}
             className="text-blue transition-colors duration-300 hover:underline hover:text-subtext0 external"
           >
             source
