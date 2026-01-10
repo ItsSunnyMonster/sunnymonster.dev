@@ -34,7 +34,7 @@ export default function Page() {
         <Link
           className="underlined external"
           href={
-            "https://codeberg.org/SunnyMonster/sunnymonster.dev/src/branch/master/LICENSES/AGPL-3.0-or-later.txt"
+            "https://github.com/ItsSunnyMonster/sunnymonster.dev/blob/master/LICENSES/AGPL-3.0-or-later.txt"
           }
         >
           AGPL 3.0 or later
@@ -51,7 +51,7 @@ export default function Page() {
         <Link
           className="underlined external"
           href={
-            "https://codeberg.org/SunnyMonster/sunnymonster.dev/src/branch/master/LICENSES/CC-BY-SA-4.0.txt"
+            "https://github.com/ItsSunnyMonster/sunnymonster.dev/blob/master/LICENSES/CC-BY-SA-4.0.txt"
           }
         >
           Creative Commons Attribution Sharealike 4.0
