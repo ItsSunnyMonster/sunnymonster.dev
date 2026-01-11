@@ -5,9 +5,12 @@
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
 
-const options = {
+export const mdxBundlerOptions = {
+  remarkPlugins: [require.resolve("remark-gfm")],
+  rehypePlugins: [require.resolve("rehype-slug")],
+};
+
+export const mdxRuntimeOptions = {
   remarkPlugins: [remarkGfm],
   rehypePlugins: [rehypeSlug],
 };
-
-export default options;

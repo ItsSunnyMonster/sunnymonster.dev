@@ -9,7 +9,7 @@ import readingDuration from "reading-duration";
 import { TocEntry } from "@stefanprobst/rehype-extract-toc";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { CustomMDXComponents } from "../mdx-components";
-import mdxOptions from "../mdxOptions";
+import { mdxRuntimeOptions } from "../mdxOptions";
 import rehypeToc from "@stefanprobst/rehype-extract-toc";
 import { ReactNode } from "react";
 import rehypeShiki from "@shikijs/rehype";
@@ -192,9 +192,9 @@ export async function getPostBySlug(
       options: {
         parseFrontmatter: true,
         mdxOptions: {
-          ...mdxOptions,
+          ...mdxRuntimeOptions,
           rehypePlugins: [
-            ...mdxOptions.rehypePlugins!,
+            ...mdxRuntimeOptions.rehypePlugins!,
             [
               rehypeShiki,
               {

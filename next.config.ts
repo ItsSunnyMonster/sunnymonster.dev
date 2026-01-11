@@ -1,10 +1,18 @@
 import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
-import mdxOptions from "./src/mdxOptions";
+import { mdxBundlerOptions } from "./src/mdxOptions";
 
 const nextConfig: NextConfig = {
   /* config options here */
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+  turbopack: {
+    rules: {
+      "*.svg": {
+        loaders: ["@svgr/webpack"], // make SVGs render as components in Turbopack
+        as: "*.js",
+      },
+    },
+  },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule: any) =>
@@ -52,7 +60,7 @@ const nextConfig: NextConfig = {
 };
 
 const withMDX = createMDX({
-  options: mdxOptions,
+  options: mdxBundlerOptions,
 });
 
 export default withMDX(nextConfig);

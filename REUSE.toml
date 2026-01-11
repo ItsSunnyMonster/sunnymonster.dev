@@ -13,6 +13,7 @@ path = [
     ".husky/pre-commit",
     ".gitignore",
     ".eslintrc.json",
+    ".github/dependabot.yml",
 ]
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
