@@ -36,7 +36,7 @@
   "devDependencies": {
     "@catppuccin/tailwindcss": "^0.1.6",
     "@svgr/webpack": "^8.1.0",
-    "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
