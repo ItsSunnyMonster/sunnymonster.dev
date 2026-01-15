@@ -23,7 +23,7 @@ export default function Footer() {
           made with ❤️ by sunnymonster (they/them)
         </p>
         <p className="text-overlay0">
-          © 2025 SunnyMonster.
+          © 2026 SunnyMonster.
           <br className="inline narrow:hidden" />
           <span className="hidden narrow:inline-block align-middle w-1 h-1 bg-overlay0 rounded-full mx-2"></span>
           <Link
